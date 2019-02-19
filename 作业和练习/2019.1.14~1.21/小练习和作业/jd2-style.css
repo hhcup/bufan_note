@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+input{
+    border: none;
+    outline: none;
+}
+.header{
+    height: 80px;
+    width: 100%;
+}
+.header-c{
+    position: relative;
+    height: 100%;
+    width: 990px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header-logo{
+    float: left;
+    display: block;
+    height: 100%;
+    width: 170px;
+    background: url(img/logo-jd.png) no-repeat center;
+}
+.header-text{
+    float: left;
+    color: rgb(102, 102, 102);
+    margin-left: 20px;
+    line-height: 100px;
+    font-weight: normal;
+
+}
+.warning{
+    position: absolute;
+    right: 0;
+    font-weight: lighter;
+    text-indent: 20px;
+    bottom: 14px;
+    font-size: 12px;
+    color: rgb(156, 156, 156);
+    background: url(img/q-icon.png) no-repeat left;
+}
+.header2-warning{
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    color: rgb(156, 156, 156);
+    background: url(img/jg.png) no-repeat 395px 12px;
+}
+.header2{
+    height: 40px;
+    width: 100%;
+    background-color: #FFF8F0;
+}
+.main{
+    height: 475px;
+    width: 100%;
+    background: #D10E0C url(img/main-bg.jpg) no-repeat center;
+}
+.main-c{
+    position: relative;
+    height: 100%;
+    width: 990px;
+    margin: 0 auto;
+}
+.login{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 346px;
+    height: 400px;
+    background-color: white;
+}
+.login-warning{
+    height: 40px;
+    width: 100%;
+    background-color: #FFF8F0;
+}
+.login-warning-text{
+    text-indent: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: lighter;
+    font-size: 12px;
+    color: rgb(156, 156, 156);
+    background: url(img/jg.png) no-repeat 30px;
+}
+.login-text{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid  rgb(230, 228, 228);
+}
+.login-text a{
+    position: relative;
+    top: 18px;
+    float: left;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(139, 139, 139);
+}
+.login-text .sao{
+    width: 172px;
+    height: 20px;
+    border-right: 1px solid rgb(230, 228, 228);
+
+}
+.login-text .zhang{
+    width: 173px;
+    font-weight: bolder;
+    color: #e85356;
+}
+.login-main{
+    padding-top: 20px;
+}
+.login-input{
+    width: 304px;
+    height: 38px;
+    margin: 20px;
+    border: 1px solid rgb(209, 209, 209);
+}
+.login-input .in1,.in2{
+    float: left;
+    height: 100%;
+    width: 38px;
+    border-right: 1px solid rgb(209, 209, 209);
+}
+.login-input .in1{
+    background: url(img/icons.png) no-repeat;
+}
+.login-input .in2{
+    background: url(img/icons.png) no-repeat -48px 0;
+}
+.login-input input{
+    width: 263px;
+    height: 36px;
+    text-indent: 1em;
+}
+.login-main .foget a{
+    font-size: 12px;
+    color: rgb(139, 139, 139);
+}
+.login-main .foget{
+    text-align: right;
+    margin-right: 20px;
+}
+.login-but{
+    display: block;
+    width: 304px;
+    height: 33px;
+    margin: 20px;
+    background-color: #e85356;
+}
+a.login-but{
+    color: white;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+}
+.login-footer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid rgb(223, 222, 222);
+}
+.wx-qq{
+    height: 50px;
+    margin-left: 20px;
+    line-height: 50px;
+}
+.qq-text,.wx-text{
+    font-size: 14px;
+    color:rgb(156, 156, 156);
+    vertical-align: middle;
+}
+.qq-logo,.wx-logo{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    /* background-color: pink; */
+    vertical-align: middle;
+}
+.qq{
+    border-right: 1px solid rgb(223, 222, 222);
+}
+.qq-logo{
+    background: url(img/qq-wx.png) no-repeat;
+}
+.wx-logo{
+    background: url(img/qq-wx.png) no-repeat -20px;
+}
+.wx{
+    margin-left: 10px;
+}
+.qq-text{
+    margin-right: 10px;
+}
+.logup{
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+.logup .logup-logo{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background: url(img/icons.png) no-repeat -104px -75px;
+}
+.logup-text{
+    font-size: 12px;
+    color: rgb(139, 139, 139);
+    vertical-align: middle;
+}
+.header .warning:hover,
+.foget a:hover,
+.qq-text:hover,
+.wx-text:hover,
+.logup-text:hover{
+    text-decoration: underline;
+    color: #e85356;
+}
+.sao:hover{
+    color: #e85356;
+    font-weight: bolder;
+}
+.fooder{
+    margin-left: 470px;
+    margin-top: 15px;
+}
+.fooder li{
+    display: block;
+    margin: 0 3px;
+    float: left;
+}
+.fooder li,.fooder-title{
+    text-align: center;
+    font-size: 1px;
+    font-weight: lighter;
+    color: rgb(116, 116, 116);
+}
+.fooder li a{
+    color: rgb(116, 116, 116);
+}
+.header-text:hover,
+.fooder li a:hover ,
+.main-load .load-int .fot:hover
+{
+    color: #CA0F0E;
+    text-decoration-line: underline;
+}
+.fooder-title{
+    margin-top: 10px;
+}

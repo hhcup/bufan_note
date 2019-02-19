@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>.
+    <script>
+        var n=prompt('输入一个数');
+        function jc(n){
+            if(n==1){
+                return 1;
+            }else{
+                return n*jc(n-1);
+            }
+        }
+        function jcsum(n){
+            var sum=0;
+            for(var i=1;i<=n;i++){
+                sum=sum+jc(i);
+            }
+            return sum;
+        }
+        alert(jcsum(n));
+    </script>
+</head>
+<body>
+</body>
+</html>

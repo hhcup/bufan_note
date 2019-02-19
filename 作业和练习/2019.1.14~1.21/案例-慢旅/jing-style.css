@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.cle{
+    clear: both;
+}
+input{
+    outline: none;
+    background-color: #f2f2f2;
+}
+.header{
+    position: relative;
+    height: 76px;
+    width: 100%;
+    background-color: #fdfcfc;
+
+}
+.header-c{
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header-c .logo{
+    display: block;
+    width: 105px;
+    height: 45px;
+    margin: 15px 0px; 
+    background: url(img/logo.png) no-repeat;
+
+}
+.header-text{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+
+}
+.header-text .header-item{
+    display: block;
+    float: left;
+    height: 100%;
+    margin-left: 80px;
+}
+.header-text .header-item a{
+    display: block;
+    float: left;
+    height: 32px;
+    width: 100%;
+    line-height: 32px;
+    text-align: center;
+    font-size: 16px;
+    color: #818181;
+    margin-top: 22px;
+}
+.header-text .header-item a:hover{
+    border-bottom: #00daed solid 2px;
+    color: #00daed;
+}
+.loads-nav{
+    position: absolute;
+    right: 465px;
+    top: 60px;
+    height: 60px;
+    width: 85px;
+    background-color: #f2f3f3;
+}
+.loads-nav li{
+    display: block;
+    height: 30px;
+    width: 85px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #737375;
+}
+.loads-nav li a{
+    display: block;
+    height: 30px;
+    width: 85px;
+}
+.loads-nav li:hover a{
+    color: #00daed;
+}
+/* ===============以下是main========================== */
+.main{
+    height: 695px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+.main-c{
+    height: 695px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.main a{
+    float: left;
+    display: block;
+    width: 288px;
+    height: 495px;
+    margin-left: 16px;
+    background-color: pink;
+
+}
+.main .nav1{
+    margin-left: 0;
+    background: url(img/3-1.jpg) no-repeat center;
+}
+.main .nav2{
+    background: url(img/3-2.jpg) no-repeat center;
+}
+.main .nav3{
+    background: url(img/3-3.jpg) no-repeat center;
+}
+.main .nav4{
+    background: url(img/3-4.jpg) no-repeat center;
+}
+.main-c p{
+    font-size: 16px;
+    color: #736f73;
+    margin-top: 25px;
+    margin-left: 33px;
+}
+.main-c p.title{
+    margin-top: 115px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #626262;
+    
+}
+.main a:hover p{
+    color: #fff;
+}
+
+/* =========================以下是footer===================== */
+.footer{
+    position: relative;
+    height: 420px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    background-color: #f2f2f2;
+}
+
+.footer-c{
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer-title{
+    font-size: 18px;
+    color: #5d5d5d;
+    margin-top: 120px;
+}
+.footer-c ul{
+    margin-top: 50px;
+    font-size: 14px;
+    color: #9fa2a2;
+}
+.footer-c li{
+    margin-top:20px;
+}
+.footer-c .footer-img{
+    height: 22px;
+}
+.footer-c .footer-img a{
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 1px 0 1px 20px;
+}
+.footer-c .footer-img a.qq{
+    margin-left: 2px;
+}
+
+.footer-c .footer-img a.qq{
+    background: url(img/qq.png) no-repeat center;
+}
+.footer-c .footer-img a.wx{
+    background: url(img/wx.png) no-repeat center;
+}
+.footer-c .footer-img a.wb{
+    background: url(img/wb.png) no-repeat center;
+}
+.footer-left,.footer-right{
+    width: 600px;
+    height: 100%;
+    float: left;
+}
+.footer-right{
+    position: relative;
+}
+.footer-int{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 540px;
+    height: 241px;
+    color: #d4d3d3;
+
+}
+.int-head{
+    height: 66px;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.int-head1,.int-head2,.int-head3{
+    float: left;
+    height: 68px;
+    width: 135px;
+    margin-left: 45px;
+    border-bottom: 1px solid #d4d3d3;
+}
+.int-head1{
+    margin-left: 0;
+}
+.int-head input{
+    list-style: none;
+    border:none;
+    height: 44px;
+    width: 135;
+
+}
+.int-cen{
+    height: 55px;
+    width: 100%;
+    margin-bottom: 44px;
+    border-bottom: 1px solid #d4d3d3;
+}
+.int-cen input{
+    list-style: none;
+    border:none;
+    height: 30px;
+    width: 100%;
+}
+.footer-int button{
+    width: 62px;
+    height: 24px;
+    background-color: #474646;
+    font-size: 14px;
+    color: #e0e0e0;
+    border: none;
+}

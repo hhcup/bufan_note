@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var oil=prompt('请输入你的汽油标号(92/95)');
+        var price=0;
+        if(oil==92){
+            var height=prompt('请输入你要加的汽油升数：');
+            if(height>=20){
+                price=5.9;
+                var allprice=height*price;
+        alert('你一共加了'+oil+'号汽油'+height+'升，单价为'+price+'每升，'+'一共是'+allprice+'元');
+            }else if(height>0){
+                price=6;
+                var allprice=height*price;
+        alert('你一共加了'+oil+'号汽油'+height+'升，单价为'+price+'每升，'+'一共是'+allprice+'元');
+            }else{
+                alert('请输入正确的升数！！！');
+            }
+        }else if(oil==95){
+            var height=prompt('请输入你要加的汽油升数：');
+            if(height>=30){
+                price=6.95;
+                var allprice=height*price;
+        alert('你一共加了'+oil+'号汽油'+height+'升，单价为'+price+'每升，'+'一共是'+allprice+'元');
+            }else if(height>0){
+                price=7;
+                var allprice=height*price;
+        alert('你一共加了'+oil+'号汽油'+height+'升，单价为'+price+'每升，'+'一共是'+allprice+'元');
+            }else{
+                alert('请输入正确的升数！！！');
+            }
+        }else{
+            alert('请输入正确的油号！！！');
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

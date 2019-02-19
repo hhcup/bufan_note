@@ -1,0 +1,561 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #000;
+    z-index: 1;
+}
+.cle{
+    clear: both;
+}
+.head{
+    position: relative;
+    height: 803px;
+    width: 100%;
+    background: url(img/banner.jpg) no-repeat center;
+}
+.header{
+    position: fixed;
+    height: 77px;
+    width: 100%;
+    background-color: #000;
+    z-index: 100;
+}
+.header-c{
+    position: relative;
+    width: 1200px;
+    height: 77px;
+    margin: 0 auto;
+}
+.header-logo{
+    display: block;
+    height: 77px;
+    width: 119px;
+    background: url(img/logo.png) no-repeat center;
+}
+.header-nav{
+    position: absolute;
+    right: 0;
+    top: 18px;
+    height: 42px;
+
+}
+.header-nav li{
+    display: inline-block;
+    margin-left: 38px;
+    height: 42px;
+
+}
+.header-nav .item-herf{
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+}
+.header-nav .item-herf:hover{
+    color: #dd1717;
+    border-bottom: 2px solid #dd1717;
+}
+
+.head-arrow{
+    display: block;
+    width: 22px;
+    height: 22px;
+
+}
+.head-arrow.left{
+    position: absolute;
+    top: 430px;
+    left: 100px;
+    background: url(img/left.png) no-repeat center;
+}
+.head-arrow.right{
+    position: absolute;
+    top: 430px;
+    right: 100px;
+    background: url(img/right.png) no-repeat center;
+}
+.dot{
+    position: absolute;
+    bottom: 29px;
+    left: 778px;
+    height: 11px;
+    width: 36px;
+}
+.dots{
+    display: block;
+    float: left;
+    width: 9px;
+    height: 9px;
+    border: 1px solid #bdbcc7;
+    border-radius: 50%;
+}
+.dots.dots-right{
+    margin-left: 14px;
+}
+.dots:hover{
+    border: 1px solid #dd1717;
+}
+/* ========================= */
+.scroll{
+    height: 200px;
+    width: 100%;
+    background-color: #000;
+    overflow: hidden;
+}
+.scroll-main{
+    margin: 110px auto;
+    width: 520px;
+    height: 60px;
+    overflow: hidden;
+}
+.scroll-top{
+    width: 520px;
+    height: 24px;
+    background: url(img/line.png) no-repeat center;
+}
+.scroll-top .eng{
+    font-size: 24px;
+    color: #dd1717;
+    text-align: center;
+    line-height: 24px;
+}
+.scroll-main p.cn{
+    font-size: 16px;
+    color: #8c8c8c;
+    text-align: center;
+    line-height: 21px;
+    margin-top: 10px;
+}
+/* ========================= */
+.show1{
+    height: 294px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.show2{
+    height: 279px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.show1-item,.show2-item{
+    display:inline-block;
+    height: 100%;
+    margin-left: 19px;
+    background-size: cover;
+}
+
+li.item1{
+    margin-left: 0;
+    width: 384px;
+}
+li.item2{
+    width: 371px;
+}
+li.item3{
+    width: 358px;
+}
+li.item4{
+    width: 397px;
+    padding-right: 1px;;
+}
+.show1-item.item1{
+    background: url(img/1-1.jpg) no-repeat center;
+}
+.show1-item.item2{
+    background: url(img/1-2.jpg) no-repeat center;
+}
+.show1-item.item3{
+    background: url(img/1-3.jpg) no-repeat center;
+}
+.show1-item.item4{
+    background: url(img/1-4.jpg) no-repeat center;
+}
+.show2-item.item1{
+    background: url(img/2-1.jpg) no-repeat center;
+}
+.show2-item.item2{
+    background: url(img/2-2.jpg) no-repeat center;
+}
+.show2-item.item3{
+    background: url(img/2-3.jpg) no-repeat center;
+}
+.show2-item.item4{
+    background: url(img/2-4.jpg) no-repeat center;
+}
+/* ===========view more============ */
+.view-text{
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 100px;
+    background-color: #dd1717; 
+    margin-bottom: 50px;
+}
+.view-text:hover{
+    /* color: rgb(204, 203, 203); */
+    background-color: #c31515;
+}
+/* <!-- ===================福利栏头结束,福利内容开始====================== --> */
+.welfare{
+    position: relative;
+    height: 807px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.welfare-side{
+    width: 516px;
+    height: 692px;
+}
+.welfare-side.right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.welfare .welfare-herf{
+    display: block;
+    width: 514px;
+    height: 300px;
+    border: 1px solid #212121;
+    background-color: #212121;
+    /* overflow: hidden; */
+}
+.welfare .welfare-herf.gui,.welfare-herf.ge{
+    margin-top: 88px;
+}
+.welfare-side p{
+    height: 50px;
+    width: 100%;
+    margin-top: 250px;
+    background-color: #212121;
+    text-indent: 1em;
+}
+.welfare-herf.guo{
+    background: url(img/l1.jpg) no-repeat;
+}
+.welfare-herf.gui{
+    background: url(img/l2.jpg) no-repeat;
+}
+.welfare-herf.qing{
+    background: url(img/r1.jpg) no-repeat;
+}
+.welfare-herf.ge{
+    background: url(img/r2.jpg) no-repeat;
+}
+.welfare p{
+    font-size: 14px;
+    color: #949494;
+    /* text-indent: 1em; */
+    line-height: 50px;
+}
+.welfare span.title{
+    font-size: 18px;
+    color: #bcbcbc;
+    margin-left: 136px;
+}
+.welfare-herf:hover p{
+    color: #fff;
+}
+.welfare-herf:hover span{
+    color: #fff;
+}
+.welfare-herf:hover{
+    border: 1px solid #dd1717;
+}
+.welfare-herf:hover span.welfare-dot{
+    border: 2px solid #dd1717;
+}
+.welfare-herf:hover p{
+    background-color: #dd1717;
+}
+.welfare-side .welfare-herf .welfare-dot{
+    display: block;
+    width: 9px;
+    height: 9px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    z-index: 10;
+}
+.welfare-side .welfare-herf{
+    position: relative;
+}
+
+.welfare-side.left .welfare-herf .welfare-dot{
+    position: absolute;
+    left: 590px;
+    top: 96px;
+}
+.welfare-side.right .welfare-herf .welfare-dot{
+    position: absolute;
+    right: 595px;
+    top: 156px;
+}
+/* <!-- ===================福利内容结束====================== --> */
+.about{
+    height: 540px;
+    width: 100%;
+    margin-top: 90px;
+    background: url(img/about.jpg) no-repeat;
+}
+.about-c{
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+.about .about-c .scroll{
+    background-color: inherit;
+}
+.cinema{
+    height: 60px;
+    width: 100%;
+    background: url(img/cinema.png) no-repeat center;
+}
+
+.about-c .about-ul{
+    font-size: 16px;
+    color: #fff;
+    height: 140px;
+}
+.about-c .about-item{
+    display: block;
+    float: left;
+    height: 140px;
+    width: 210px;
+    margin-left: 119px;
+    text-align: center;
+}
+.about-c .about-ul li.item1{
+    margin-left: 0px;
+}
+.about-c .about-ul span.img1{
+    background: url(img/c1.PNG) no-repeat center;
+}
+.about-c .about-ul span.img2{
+    background: url(img/c2.PNG) no-repeat center;
+}
+.about-c .about-ul span.img3{
+    background: url(img/c3.PNG) no-repeat center;
+}
+.about-c .about-ul span.img4{
+    background: url(img/c4.PNG) no-repeat center;
+}
+.about-c .about-ul span{
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+
+
+.footer{
+    height: 600px;
+    width: 100%;
+    background-color: #000;
+}
+.footer-c{
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer-c .plan{
+    height: 300px;
+    width: 100%;
+}
+.plan-ul{
+    width: 950px;
+    height: 230px;
+    margin: 0 auto;
+}
+.plan-ul .plan-item{
+    display: block;
+    float: left;
+    height: 100%;
+    width: 170px;
+    margin-left: 24px;
+}
+.plan-ul .plan-item.item1{
+    margin-left: 1px;
+}
+.asklogo{
+    display: block;
+    height: 75px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #dd1717;
+    text-align: center;
+    line-height: 50px;
+    background: url(img/ask-h.png) no-repeat top;
+}
+.plan-ul .plan-item:hover .asklogo{
+    color: #fff;
+    background: url(img/ask-red.png) no-repeat top;
+}
+.plan-herf{
+    display: block;
+    height: 155px;
+    width: 100%;
+    background: url(img/img-h.png) no-repeat center;
+    overflow: hidden;
+}
+.plan-ul .plan-item:hover .plan-herf{
+    background: url(img/img-red.png) no-repeat center;
+}
+
+.plan-ul .plan-item p{
+    font-size: 12px;
+    line-height: 25px;
+    color: #8c8c8c;
+    text-align: center;
+}
+.plan-ul .plan-item p.title{
+    margin-top: 48px;
+    font-size: 18px;
+    color: #fff;
+}
+.plan-herf:hover p{
+    color: #fff;
+}
+.footer-nav{
+    font-size: 14px;
+    line-height: 22px;
+    color: #8c8c8c;
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.footer-nav p.p1{
+    margin-top: 20px;
+}
+.footer-nav1,.footer-nav2,.footer-nav3{
+    float: left;
+    height: 100%;
+}
+.footer-nav1{
+    text-align: left;
+    width: 370px;
+}
+.footer-nav2{ 
+    text-align: center;
+    width: 455px;
+    border-left: 2px solid #0e0e0e;
+    border-right: 2px solid #0e0e0e;
+}
+.footer-nav3{
+    text-align: left;
+    width: 370px;
+}
+.footer-nav3 p{
+    margin-left: 180px;
+}
+.footer-nav .icons{
+    margin-top: 10px;
+    height: 24px;
+    width: 176px;
+}
+.footer-nav li{
+    display: block;
+    float: left;
+    width: 29px;
+    height: 24px;
+    /* background-color: lightblue; */
+    margin-left: 12px;
+
+}
+.footer-nav li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.footer-nav .l1{
+    margin-left: 0;
+}
+.footer-nav li .wb{
+    background: url(img/wb.png) no-repeat center;
+}
+.footer-nav li .qq{
+    background: url(img/qq.png) no-repeat center;
+}
+.footer-nav li .wx{
+    background: url(img/wx.png) no-repeat center;
+}
+.footer-nav li .bd{
+    background: url(img/bd.png) no-repeat center;
+}
+.footer-bottom{
+    width: 100%;
+    height: 80px;
+    font-size: 12px;
+    color: #8b8b8b;
+    text-align: center;
+    line-height: 80px;
+    margin-top: 30px;
+    background-color: #161616;
+}
+
+
+.show1 li .show-herf{
+    display: none;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.3);
+
+} 
+.show1 .show-herf .show-herf-boder{
+    display: block;
+    height: 90%;
+    width: 90%;
+    margin: 4.4%;
+    border: 1px solid #dd1717;
+}
+.show2 li .show-herf{
+    display: none;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+
+} 
+.show2 .show-herf .show-herf-boder{
+    display: block;
+    height: 90%;
+    width: 90%;
+    margin: 4.4%;
+    border: 1px solid #dd1717;
+}
+.show2 li:hover .show-herf{
+    display: block;
+}
+.show1 li:hover .show-herf{
+    display: block;
+}
+.welfare-main{
+    position: relative;
+}
+.loc{
+    position: absolute;
+    top: 0;
+    left: 789px;
+    width: 1px;
+    height: 800px;
+    background-color: #1a1a1a;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	.center{
+	padding: 15px;
+	}
+	.head{
+		font-family: Simsun;
+		color: white;
+		background-color: #88ADD9;
+		width: 100%;
+		height: 10%;
+	}
+	.table2{
+		width: 800px;
+		line-height: 30px;
+	}
+	.table1{
+		color:#77BCCE;
+		width: 300px;
+		line-height: 35px;
+		text-align: center;
+		/*margin-top: 20px;*/
+	}
+	table,td,th{
+		border:1px solid black;
+		border-collapse: collapse;
+	}
+	.tr1{
+		background-color:#E9E8E8;
+	}
+	</style>
+</head>
+<body>
+<!-- 表头 -->
+	<div class="head">
+		<div class="center">
+			<h1>宿舍管理系统</h1>
+		</div>
+	</div>
+<!-- 左边栏 -->
+	<div style="float: left;">
+	<table class="table1">
+		<tr>
+			<td>首页</td>
+		</tr>
+		<tr>
+			<td>宿舍管理员管理</td>
+		</tr>
+		<tr>
+			<td>宿舍楼管理</td>
+		</tr>
+		<tr>
+			<td>学生管理</td>
+		</tr>
+		<tr>
+			<td>缺勤记录</td>
+		</tr>
+		<tr>
+			<td>修改密码</td>
+		</tr>
+		<tr>
+			<td>退出系统</td>
+		</tr>
+	</table>
+	</div>
+	<!-- 中间表格 -->
+	<fieldset>
+	<legend>学生管理系统</legend>
+	<div style="float: left;">
+	<table class="table2">
+		<tr>
+			<th>学号</th><th>姓名</th><th>性别</th><th>宿舍楼</th><th>寝室</th><th>电话</th><th>操作</th>
+		</tr>
+		<tr class="tr1">
+			<td>001</td><td>张三</td><td>男</td><td>1栋</td><td>1350</td><td>1524</td><td></td>
+		</tr>
+		<tr>
+			<td>001</td><td>小明</td><td>男</td><td>3栋</td><td>13510</td><td>1524</td><td></td>
+		</tr>
+		<tr class="tr1">
+			<td>001</td><td>张把</td><td>男</td><td>8栋</td><td>15660</td><td>8984</td><td></td>
+		</tr>
+		<tr>
+			<td>001</td><td>马六</td><td>男</td><td>5栋</td><td>11450</td><td>1524</td><td></td>
+		</tr>
+		<tr class="tr1">
+			<td>001</td><td>赵四</td><td>男</td><td>9栋</td><td>1210</td><td>13244</td><td></td>
+		</tr>
+		<tr>
+			<td>001</td><td>王五</td><td>男</td><td>22栋</td><td>8810</td><td>152344</td><td></td>
+		</tr>
+	</table>
+	</div>
+	<div style="float: top;">
+		<select>
+			<option selected>全部宿舍楼</option>
+			<option>1栋</option>
+			<option>2栋</option>
+			<option>3栋</option>
+		</select>
+		<select>
+			<option selected>姓名</option>
+			<option>1栋</option>
+			<option>2栋</option>
+			<option>3栋</option>
+		</select>
+		<input type="text" name="search">
+		<input type="submit" value="搜索">
+	</div>
+	</fieldset>
+</body>
+</html>

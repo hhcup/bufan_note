@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+			margin: 0;
+			padding: 0;
+		}
+		.banner{
+			position: relative;
+			width: 1200px;
+			height: 460px;
+			margin: 100px auto;
+			background: url(img/m1.jpg) no-repeat center;
+			background-size: cover;
+		}
+		.banner .arr{
+			position: absolute;
+			left: 0;
+			top: 50%;
+			display: block;
+			width: 36px;
+			height: 72px;
+			font-size: 20px;
+			color: #fff;
+			text-align: center;
+			line-height: 72px;
+			margin-top: -36px;
+			text-decoration: none;
+			background-color: rgba(0,0,0,.3);
+		}
+		.banner .arr.arr-r{
+			left: auto;
+			right: 0;
+		}
+    </style>
+</head>
+<body>
+        <div class="banner">
+                <a href="javascript:;" class="arr arr-l">&lt;</a>
+                <a href="javascript:;" class="arr arr-r">&gt;</a>
+            </div>
+
+    <script>
+        var img=['m1.jpg','m2.jpg','m3.jpg','m4.jpg','m5.jpg','m6.jpg'];
+        var blnl=document.getElementsByClassName('arr-l')[0];
+        var blnr=document.getElementsByClassName('arr-r')[0];
+        var bannerimg=document.getElementsByClassName('banner')[0];
+        var count=0;
+        blnr.onclick=function(){
+            count++;
+            if(count==img.length){
+                count=0;
+            }
+            bannerimg.style.backgroundImage='url('+'img/'+img[count]+')';       
+             }
+        blnl.onclick=function(){
+            count--;
+            if(count<0){
+                count=5;
+            }
+            bannerimg.style.backgroundImage='url('+'img/'+img[count]+')';       
+             }
+    </script>
+</body>
+</html>

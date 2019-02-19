@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+            background: url(img/hulk.jpg) no-repeat center;
+			background-size: cover;
+
+        }
+        .d1{
+            height: 180px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        .d1 a{
+            display: block;
+            float: left;
+			width: 250px;
+			height: 180px;
+
+		}
+        .imgs{
+            height: 100%;
+            width: 100%;
+        }
+       .active{
+            border: 4px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="d1">
+        <a href="javascript:;" onclick="change(this);"class="active"><img src="img/hulk.jpg" class="imgs"></a>
+        <a href="javascript:;" onclick="change(this);"><img src="img/a.jpg" class="imgs"></a>
+        <a href="javascript:;" onclick="change(this);"><img src="img/sjl.jpg" class="imgs"></a>
+    </div>
+    <script>
+        function change(el){
+            var ael=myChildren(el.parentNode);
+            for(var i=0;i<ael.length;i++){
+                ael[i].removeAttribute('class');
+            }
+            el.setAttribute('class','active');
+            var img=myChildren(el)[0];
+            document.body.style.backgroundImage='url('+img.src+')';
+        }
+    
+    function myChildren (pNode) {
+			var children = pNode.children;
+			var rs = [];
+			for(var i = 0 ; i < children.length ; i++){
+				//过滤元素节点
+				if(children[i].nodeType == 1){
+					rs.push(children[i]);
+				}
+			}
+			return rs;
+		}
+    </script>
+</body>
+</html>

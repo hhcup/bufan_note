@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var hun=0;
+        var ten=0;
+        var ge=0;
+        var i=100;
+        for(i=100;i<=999;i++)
+        {
+            hun=Math.floor(i/100);
+            ten=Math.floor((i-(100*hun))/10);
+            ge=i%10;
+            if((Math.pow(hun,3)+Math.pow(ten,3)+Math.pow(ge,3))==i){
+            console.log(i);
+            }
+        }
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

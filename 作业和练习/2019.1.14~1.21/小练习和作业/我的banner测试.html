@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
+        }
+        table{
+            list-style: none;
+        }
+        .top1{
+            width: 100%;
+            height: 40px;
+            background-color: black;
+
+        }
+    .banner{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 1226px;
+        height: 460px;
+        background-color: pink;
+        margin: 0 auto 0 auto;
+        background-image: url(img/m1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .side{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 100%;
+        background-color: rgb(53, 53, 53,.5);
+    }
+    .arr-left{
+                position: absolute;
+                top: 50%;
+                left: 0;
+                margin-top: -35px;
+                margin-left: 200px;
+    }
+    .arr-right{
+                position: absolute;
+                right: 0;
+                top: 50%;
+                margin-top: -35px;
+                margin-left: 200px;
+    }
+    .banner .arr{
+        
+        line-height:70px;
+        text-align: center;
+        display: block;
+        height: 70px;
+        width: 40px;      
+        color: rgb(202, 202, 202);
+        background-color: rgb(165, 165, 168,.0);
+    }
+    .banner .arr:hover{
+        color: white;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .banner a{
+        font-size: 30px;
+    }
+    .dot{
+        position: absolute;
+        bottom:25px;
+        right: 40px;
+        width: auto;
+        height: 10px;
+
+    }
+    .dot li{
+        display: block;
+        float: left;
+        margin-right: 10px;
+        display:inline-block;
+        width: 8px;
+        height: 8px;   
+    }
+    .dot li a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 2px solid rgb(170, 170, 169);
+        background-color: rgb(209, 208, 208);
+        border-radius: 50%;
+    }
+    .dot li a:hover{
+        border: 2px solid rgb(102, 102, 102);
+        background-color: rgb(241, 241, 241);
+    }
+    
+    .side ul li:hover{
+            background-color: #FF6700;
+    }
+    .side ul{
+        color: white;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        text-indent: 2em;
+        line-height: 46px;
+    }
+
+    .side .arr1{
+                width: 30px;
+                position: absolute;
+                top: 8px;
+                left: 150px;
+                font-weight: bolder;
+                line-height: 20px;
+    } 
+    
+    .side td:hover{
+            background-color: orange;
+    }
+    .img{
+        position: absolute;
+        left: 187px;
+        top: 62px;
+        width: 57px;
+        height: 57px;
+        background-image: url(m.png)
+    }
+    .top1 li{
+        font-size: 12px;
+        line-height: 40px;
+        display: inline-block;
+        color: rgb(190, 190, 190);
+        margin: 0 6px 0;
+    }
+    .top1 li:hover{
+        color: white;
+    }
+    .top1 ul{
+        position: absolute;
+        left: 181px;
+    }
+    .top1 .ul1{
+        position: absolute;
+        left: 1130px;
+    }
+    .side a{
+        margin-top: 15px;
+        width: 16px;
+        height: 16px;
+        background-repeat: no-repeat;
+        background-image: url(j.png);
+        position: absolute;
+        left: 160px;
+    }
+    .top2{
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 1226px;
+        height: 100px;
+        margin: 0 auto 0 auto;
+    }
+    .top2 ul{
+        position: absolute;
+        left: 220px;
+
+    }
+    .top2 ul li{
+        line-height: 100px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .top2 input{
+        position: absolute;
+        right: 0;
+        top: 25px;
+        height: 50px;
+        width: 250px;
+    }
+</style>
+</head>
+<body>
+    <div class="top1">
+        <ul>
+            <li>小米商城</li>
+            <li>MIUI</li>
+            <li>loT</li>
+            <li>云服务</li>
+            <li>金融</li>
+            <li>有品</li>
+            <li>小爱开放平台</li>
+            <li>政企服务</li>
+            <li>资质证照</li>
+            <li>协议规则</li>
+            <li>下载app</li>
+            <li>Select Region</li>
+        </ul>
+        <ul class="ul1">
+                <li>登录</li>
+                <li>注册</li>
+                <li>消息通知</li>
+        </ul>
+    </div>
+    <div class="top2">
+        <ul>
+            <li>小米手机</li>
+            <li>红米</li>
+            <li>电视</li>
+            <li>笔记本</li>
+            <li>家电</li>
+            <li>新品</li>
+            <li>路由器</li>
+            <li>智能硬件</li>
+            <li>服务</li>
+            <li>社区</li>
+        </ul>
+        <input type="text">
+    </div>
+    <div class="img"></div>
+    <div class="banner">
+        <div class="side">
+            <ul>
+                <li><a href="#"></a>手机&nbsp电话卡</li>
+                <li><a href="#"></a>电视&nbsp盒子</li>
+                <li><a href="#"></a>笔记本&nbsp平板</li>
+                <li><a href="#"></a>家电&nbsp插线板</li>
+                <li><a href="#"></a>出行&nbsp穿戴</li>
+                <li><a href="#"></a>智能&nbsp路由器</li>
+                <li><a href="#"></a>电源&nbsp配件</li>
+                <li><a href="#"></a>健康&nbsp儿童</li>
+                <li><a href="#"></a>耳机&nbsp音箱</li>
+                <li><a href="#"></a>生活&nbsp箱包</li>
+            </ul>
+    
+        </div>
+        <a class="arr arr-left" href="#">&lt</a>
+        <a class="arr arr-right" href="#">&gt</a>
+        <div class="dot">
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

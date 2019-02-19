@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>后台管理系统练习2</title>
+	<meta charset="UTF-8">
+	<style>
+		.top{
+			background-color:#25313F;
+			width:1585px;
+			height:50px;
+			}
+		.topl{
+			background-color:#86D095;
+			width: 200px;
+			padding-top: 50px;
+		}
+		.topl2{
+			background-color: #435970;
+			width: 200px;
+			height: 1000px;
+		}
+		.left{
+			font-size: 20px;
+			color: white;
+		}
+		table,tr,td{
+			border: 1px solid white;
+			border-collapse: collapse;
+			width: 200px;
+			text-align: center;
+		}
+		.centertable{
+			width: 1360px;
+		}
+		table.centertable tr,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+			height: 40px;
+		}
+	</style>
+</head>
+<body>
+	<div class="top">
+	<h2 style="color: white; padding-top: 8px;margin-left: 25px;">后台管理系统</h2>
+	<div style="width: 1380;height: 2000px;margin-left: 205px; margin-top:10px ">
+	<div style="float:left;">
+		网站名称：<input style="text">
+		域&nbsp&nbsp名：<input style="text"> 
+		备案状态: <select>
+					<option>已备案</option>
+					<option>未备案</option>
+					<option>已审核</option>
+					<option>待审核</option>
+					<option>审核未通过</option>
+					</select>
+		<button>查询</button> <button>高级查询</button> 
+	</div>
+	<br>
+	<hr>
+	<button>新增</button> <button>导出</button><button>导入</button><hr>
+	<!-- <table>
+		<tr>
+			<th><input type="checkbox">网站名称</th>
+			<th>域名</th>
+			<th>备案号</th>
+			<th>备案状态</th>
+			<th>是否黑名单</th>
+			<th>域名注册商</th>
+			<th>接入数</th>
+		</tr>
+	</table> -->
+	<table class="centertable">
+		<tr>
+			<th> <input type="checkbox"> 网站名称</th><th>域名</th><th>备案号</th><th>备案状态</th><th>是否黑名单</th><th>域名注册商</th><th>接入数</th>	
+		</tr>
+		<tr>
+			<td><input type="checkbox">酒美网</td><td>jiumei.com</td><td>京ICP备07052664号—2</td><td>已备案</td><td>否</td><td>baidu.com</td><td>3</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox">酒美网</td><td>jiumei.com</td><td>京ICP备07052664号—2</td><td>已备案</td><td>否</td><td>baidu.com</td><td>3</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox">酒美网</td><td>jiumei.com</td><td>京ICP备07052664号—2</td><td>已备案</td><td>否</td><td>baidu.com</td><td>3</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox">酒美网</td><td>jiumei.com</td><td>京ICP备07052664号—2</td><td>已备案</td><td>否</td><td>baidu.com</td><td>3</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox">酒美网</td><td>jiumei.com</td><td>京ICP备07052664号—2</td><td>已备案</td><td>否</td><td>baidu.com</td><td>3</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox">酒美网</td><td>jiumei.com</td><td>京ICP备07052664号—2</td><td>已备案</td><td>否</td><td>baidu.com</td><td>3</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox">酒美网</td><td>jiumei.com</td><td>京ICP备07052664号—2</td><td>已备案</td><td>否</td><td>baidu.com</td><td>3</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox">酒美网</td><td>jiumei.com</td><td>京ICP备07052664号—2</td><td>已备案</td><td>否</td><td>baidu.com</td><td>3</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox">酒美网</td><td>jiumei.com</td><td>京ICP备07052664号—2</td><td>已备案</td><td>否</td><td>baidu.com</td><td>3</td>
+		</tr>
+	</table>
+	</div>
+	</div>
+	<!-- 中间内容 -->
+	<!-- 左边栏 -->
+	<div class="topl">
+	</div>
+	<div  class="topl2">
+		<table class="left">
+			<tr>
+				<td>传输管理</td>
+			</tr>
+			<tr>
+				<td>统计分析</td>
+			</tr>
+			<tr>
+				<td>云数据</td>
+			</tr>
+			<tr>
+				<td>地理位置</td>
+			</tr>
+			<tr>
+				<td>工具管理</td>
+			</tr>
+			<tr>
+				<td>系统分析</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

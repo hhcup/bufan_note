@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input{
+    border: none;
+}
+.header,.header2,.main{
+    width: 100%;
+}
+.header{
+    position: relative;
+    height: 80px;
+    background-color: white;
+}
+.header-logo{
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    display: block;
+    width: 170px;
+    height: 60px;
+    background-image: url(img/logo-jd.png);
+    background-repeat: no-repeat;
+}
+.header p{
+    font-size: 24px;
+    line-height: 100px;
+    text-indent: 500px;
+    color: rgb(102, 102, 102);
+}
+.header-text-img{
+    position: absolute;
+    right: 420px;
+    top: 55px;
+    display: block;
+    height: 20px;
+    width: 20px;
+    background: url(img/header-text.png) no-repeat;
+}
+.header-text{
+    position: absolute;
+    left: 1180px;
+    top: 53px;
+    color: rgb(102, 102, 102);
+    font-weight: lighter;
+    font-size: 13px;
+
+}
+.header2{
+    position: relative;
+    height: 40px;
+    background-color: #FFF8F0;
+}
+.header2 img{
+    position: absolute;
+    left: 360px;
+    top: 12px;
+    line-height: 40px;
+
+}
+.header2 p{
+    line-height: 40px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: lighter;
+    color: rgb(139, 139, 139);
+}
+.main{
+    position: relative;
+    height: 470px;
+    background: #CA0F0E url(img/main-bg.jpg) no-repeat 300px;
+
+}
+.main-load{
+    position: absolute;
+    top: 10px;
+    left: 950px;
+    width: 345px;
+    height: 440px;
+    background-color: white;
+}
+.fooder{
+    margin-left: 390px;
+    margin-top: 15px;
+}
+.fooder li{
+    display: block;
+    margin: 0 3px;
+    float: left;
+}
+.fooder li,.fooder-title{
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgb(116, 116, 116);
+}
+.fooder li a{
+    color: rgb(116, 116, 116);
+}
+.header-text:hover,
+.fooder li a:hover ,
+.main-load .load-int .fot:hover
+{
+    color: #CA0F0E;
+    text-decoration-line: underline;
+}
+.fooder-title{
+    margin-top: 10px;
+}
+.main-load .jdw{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: #FFF8F0;
+    font-size: 10px;
+    font-weight: lighter;
+    color: rgb(116, 116, 116);
+    line-height:40px;
+    text-align: center;
+    text-indent: 10px;
+}
+.main-load .jdw img{
+    position: absolute;
+    left: 25px;
+    top: 13px;
+}
+.main-load .load-text{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid rgb(228, 227, 227);
+}
+.load-text a{
+    display: block;
+    text-align: center;
+    width: 172px;
+    height: 100%;
+    float: left;
+    color: rgb(97, 97, 96);
+}
+.load-text a:hover{
+    font-weight: bolder;
+    color: #CA0F0E;
+}
+.load-text span{
+    position: absolute;
+    left: 172;
+    font-weight: 100;
+    line-height: 55px;
+    color: rgb(228, 227, 227);
+}
+.load-int{
+    position: relative;
+    padding-top: 20px;
+    width: 100%;
+    height: 193px;
+}
+.load-int{
+    width: 100%;
+    height: 255px;
+    border-bottom: 1px solid  rgb(228, 227, 227);
+}
+.load-int div{
+    margin: 20px auto;
+    width: 305px;
+    height: 40px;
+    border: 1px solid rgb(228, 227, 227);
+    /* background-color: rgb(204, 204, 80); */
+}
+.load-int img{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 100%;
+    border-right: 1px solid rgb(228, 227, 227);
+}
+.load-int input{
+    display: block;
+    float: left;
+    height: 40px;
+    width: 263px;
+    text-indent: 1em;
+    
+}
+
+.main-load a.load-int-bom{
+    display: block;
+    letter-spacing:20px;
+    margin: 20px 20px;
+    width: 305px;
+    height: 35px;
+    color: white;
+    text-indent: 130px;
+    line-height: 35px;
+    background-color: #CA0F0E;
+    
+}
+.main-load .load-int .fot{
+    margin-left: 260px;
+}

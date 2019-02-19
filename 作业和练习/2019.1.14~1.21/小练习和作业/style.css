@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.bg{
+    height: 500px;
+    width: 100%;
+    margin: 500px 0;
+    background-color: pink;
+}
+.nav{
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    width: 50px;
+    height: 160px;
+    background-color: white;
+}
+.qq,.wx,.up{
+    width: 100%;
+    height: 50px;
+}
+.qq{
+    position: relative;
+    background: #6872BA url(img/qq.png) no-repeat center;
+    cursor: pointer;
+}
+/* qq下的表单 */
+.qq-ask{
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: -150px;
+    height: 200px;
+    width: 170px;
+    /* background-color: rgb(131, 131, 55); */
+}
+.qq:hover .qq-ask{
+    display: block;
+}
+/* qq里表单的li */
+.qq-ask-item{
+    line-height: 40px;
+    height: 40px;
+    width: 100%;
+}
+.qq-ask .title{
+    position: relative;
+    color: white;
+    text-indent: 30px;
+    background-color: #6872BA;
+    cursor: default;
+}
+.qq-ask .title a{
+    position: absolute;
+    right: 25px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 35px;
+    color: white;
+    font-size: 20px;
+}
+.qq-ask .nu{
+    text-indent: 20px;
+    line-height: 30px;
+}
+.qq-ask .teacher1{
+    background: #F3F3F3 url(img/icon-qq.png) no-repeat 22px;
+}
+.qq-ask .teacher2{
+    background: #878787 url(img/icon-qq.png) no-repeat 22px;
+}
+.qq-ask .qq-ask-item:hover.teacher1{
+    height: 38px;
+    color: white;
+    background-color: black;
+}
+.qq-ask .qq-ask-item:hover.teacher2{
+    height: 38px;
+    color: white;
+    background-color: black;
+}
+.nav .qq-ask .ct{
+    background: white url(img/icon-tel.png) no-repeat 22px;
+
+}
+.nav .qq-ask .nu{
+    background-color: white;
+
+}
+.teacher1,.teacher2,.ct{
+    text-indent: 50px;
+}
+.wx{
+    position: relative;
+    background: #32AF2C url(img/wx.png) no-repeat center;
+}
+.wx img{
+    position: absolute;
+    right: 50px;
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+.wx:hover img{
+    display: block;
+}
+.up a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    background:#646464 url(img/jt.png) no-repeat center;
+}

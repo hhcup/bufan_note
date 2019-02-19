@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var a=prompt('请输入一个正数');
+        var b=prompt('请输入另一个正数');
+        var min=Math.min(a,b);
+        for(var i=min;i>=2;i--){
+            if(a%i==0 && b%i==0){
+               alert('最大公约数为'+i+'最小公倍数为'+(a*b)/i); 
+               break;
+            }
+        }
+        
+            
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

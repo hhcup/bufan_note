@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>课程表</title>
+</head>
+<body>
+	<h1 align="center">课程表</h1>
+	<fieldset>
+	<legend>这是我的课程表</legend>
+	<table border="2" cellpadding="10" cellspacing="3" align="center" bgcolor="#8DEEEE">
+	<!-- 第一行 -->
+		<tr bgcolor="#EEC591">
+			<th>课程表</th>
+			<th>周一</th>
+			<th>周二</th>
+			<th>周三</th>
+			<th>周四</th>
+			<th>周五</th>
+		</tr>
+		<!-- 第二行上午第一节 -->
+		<tr bgcolor="white">
+			<th rowspan="3" bgcolor="pink">上午</th>
+			<th colspan="2">数学</th>
+			<td>英语</td>
+			<td>电脑</td>
+			<td>物理</td>
+		</tr>
+		<!-- 第三行上午第二节 -->
+		<tr bgcolor="white">
+			<td>语文</td>
+			<td>睡觉</td>
+			<td>自习</td>
+			<td>写作</td>
+			<td>体育</td>
+		</tr>
+		<!-- 第四行（午休） -->
+		<tr>
+			<th colspan="6" bgcolor="#7D9EC0">
+				午休
+			</th>
+		</tr>
+		<!-- 下午第一节 -->
+		<tr bgcolor="white">
+			<th rowspan="3" bgcolor="pink">上午</th>
+			<td>数学</td>
+			<td rowspan="2">英语</td>
+			<td>电脑</td>
+			<td>物理</td>
+			<td>化学</td>
+		</tr>
+		<!-- 下午第二节 -->
+		<tr bgcolor="white">
+			<td>语文</td>
+			<td>睡觉</td>
+			<td>自习</td>
+			<td>写作</td>
+		</tr>
+		<!-- 晚自习 -->
+		<tr>
+			<th colspan="6" bgcolor="#7D9EC0">晚自习</th>
+		</tr>
+	</table>
+	</fieldset>
+</body>
+</html>

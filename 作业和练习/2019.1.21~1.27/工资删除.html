@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var money=[1500,1200,2000,2100,1800];
+        function del(arr){
+            for(var i=0;i<money.length;i++){
+                if(money[i]>=2000){
+                    money.splice(i,i+1);
+                }
+            }
+            return money;
+        }
+        console.log(del(money));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

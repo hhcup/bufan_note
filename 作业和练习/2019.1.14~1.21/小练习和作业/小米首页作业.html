@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .header{
+            position: relative;
+            width: 1226px;
+            height: 57px;
+            margin: 20px auto;
+            /* background-color: cyan; */
+        }
+        .header .logo-mi{
+            float: left;
+            height: 100%;
+            width: 57px;
+            background-image: url(img/m.png);
+            background-repeat: no-repeat;
+
+        }
+        .header .logo-word{
+            float: left;
+            height: 100%;
+            width: 143px;
+            background-image: url(img/word.png);
+            background-repeat: no-repeat;
+        }
+        .head-nav{
+            float: left;
+            height: 100%;
+            /* width: 1000px; */
+            /* background-color: red; */
+        }
+        .head-nav li{
+            float: left;
+            height: 57px;
+            /* background-color: green; */
+        }
+        .head-nav a{
+            display: block;
+            float: left;
+            color: black;
+            padding: 0 10px;
+            line-height: 57px;
+            height: 100%;
+
+        }
+        .header li:hover a{
+            color: orange;
+        }
+        .search{
+            position: absolute;
+            right: 0;
+            width: 300px;
+            height: 52px;
+            border: 1px solid black;
+            /* background-color: brown; */
+        }
+        .search .search-text{
+            display: block;
+            float: left;
+            border: none;
+            width: 245px;
+            height: 50px;
+            text-indent: 1em;
+            outline: none;
+        }
+        
+        .search .search-img{
+            display: block;
+            float: left;
+            height: 100%;
+            width: 54px;
+            border-left: 1px solid black;
+            background: white url(img/search.png) no-repeat center;
+            background-size: 40%;
+        }
+        .search .search-img:hover{
+            background: orange url(img/search1.png) no-repeat center;
+            background-size: 40%;
+        }
+        .main{
+            width: 1226px;
+			height: 460px;
+            margin: 0 auto;
+            background-color: darkkhaki;
+            background: url(img/m1.jpg) no-repeat center;
+            background-size: cover;
+        }
+        .side-nav{
+            height: 440px;
+            width: 200px;
+            padding-top: 20px;
+            /* padding-top: 2px; */
+            background-color: lightblue;
+        }
+        .side-nav .able{
+            height: 42px;
+            width: 100%;
+            /* background-color: rgb(209, 209, 158); */
+        }
+        .able a{
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: white;
+            text-indent: 1em;
+            line-height: 47px;
+            background: url(img/j.png) no-repeat 170px center;
+         /* background-color: rgb(158, 247, 205); */
+
+        }
+        .able:hover a{
+            background-color: orange;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+            <div class="logo-mi"></div>
+            <div class="logo-word"></div>
+            <ul class="head-nav">
+                <li><a href="#">小米手机</a></li> 
+                <li><a href="#">红米</a></li>
+                <li><a href="#">电视</a></li>
+                <li><a href="#">笔记本</a></li>
+                <li><a href="#">家电</a></li>
+                <li><a href="#">新品</a></li>
+                <li><a href="#">路由器</a></li>
+                <li><a href="#">智能硬件</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">社区</a></li>
+            </ul>
+            <div class="search">
+                <input class="search-text" type="text">
+                <a href="#" class="search-img"></a>
+            </div>  
+    </div>
+    <div class="main">
+            <ul class="side-nav">
+                <li class="able"><a href="#">手机&nbsp电话卡</a></li>
+                <li class="able"><a href="#">电视&nbsp盒子</a></li>
+                <li class="able"><a href="#">笔记本&nbsp平板</a></li>
+                <li class="able"><a href="#">家电&nbsp插线板</a></li>
+                <li class="able"><a href="#">出行&nbsp穿戴</a></li>
+                <li class="able"><a href="#">智能&nbsp路由器</a></li>
+                <li class="able"><a href="#">电源&nbsp配件</a></li>
+                <li class="able"><a href="#">健康&nbsp儿童</a></li>
+                <li class="able"><a href="#">耳机&nbsp音箱</a></li>
+                <li class="able"><a href="#">生活&nbsp箱包</a></li>
+            </ul> 
+    </div>
+</body>
+</html>

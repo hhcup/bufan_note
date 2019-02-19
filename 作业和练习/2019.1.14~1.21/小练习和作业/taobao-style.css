@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+} 
+.main{
+    margin: 200px auto;
+    width: 288px;
+    height: 232px;
+    /* background: pink; */
+}
+.main li{
+    display: block;
+    float: left;
+    width: 71px;
+    height: 76px;
+    /* background-color: lightblue; */
+    text-align: center;
+    /* line-height:125px;  */
+    border: 1px solid rgb(240, 238, 238);
+    margin:0px 0px -1px -1px;
+    
+}
+.main a{
+    display: block;
+    height: 76px;
+    width: 71px;
+    font-size: 14px;
+    color: rgb(98, 98, 98);
+}
+.main li:hover a{
+    color: #FF4400;
+}
+.main span{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 10px auto;
+    
+}
+.main .item1{
+    background: url(img/taobao.png) no-repeat;
+}
+.main .item2{
+    background: url(img/taobao.png) no-repeat 0 -43px;
+}
+.main .item3{
+    background: url(img/taobao.png) no-repeat 0 -86px;
+}
+.main .item4{
+    background: url(img/taobao.png) no-repeat 0 -130px;
+}
+.main .item5{
+    background: url(img/taobao.png) no-repeat 0 -174px;
+}
+.main .item6{
+    background: url(img/taobao.png) no-repeat 0 -219px;
+}
+.main .item7{
+    background: url(img/taobao.png) no-repeat 0 -264px;
+}
+.main .item8{
+    background: url(img/taobao.png) no-repeat 0 -306px;
+}
+.main .item9{
+    background: url(img/taobao.png) no-repeat 0 -351px;
+}
+.main .item10{
+    background: url(img/taobao.png) no-repeat 0 -395px;
+}
+.main .item11{
+    background: url(img/taobao.png) no-repeat 0 -439px;
+}
+.main .item12{
+    background: url(img/taobao.png) no-repeat 0 -483px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>    
+    var height=prompt('请输入你的体重/kg');
+    var weight=prompt('请输入你的身高/m');
+    var BMI=height/Math.pow(weight,2);
+    if(BMI<18.5){
+        alert('你太轻了该多吃点了！');
+    }else if(BMI<24.999999){
+        alert('你的身材很完美，继续保持！');
+    }else if(BMI<27.99999){
+        alert('你的体重有点超标了，注意饮食！');
+    }else if(BMI<32){
+        alert('你的体重太重了，该减肥了！');
+    }else{
+        alert('你的体重太重了，无药可救了！');
+    }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

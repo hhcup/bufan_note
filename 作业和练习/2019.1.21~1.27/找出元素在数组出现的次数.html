@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // var arr=['a','b','c','a','c','b','c','a','b','d'];
+        // var str=[];
+        // var num=[];
+        // for(var i=0;i<arr.length;i++){
+        //     var index=str.indexOf(arr[i]);
+        //     if(index==-1){
+        //         str.push(arr[i]);
+        //         num.push(1);
+        //     }else(
+        //         num[index] = ++ num[index]
+        //     )
+        // }
+        // for(var j=0;j<str.length;j++){
+        //     console.log(str[j]+':'+num[j]);
+        // }
+
+        var arr2=['a','b','c','a','c','b','c','a','b','d'];
+        var sum={};
+        for(var k=0;k<arr2.length;k++){
+            if(sum[arr2[k]]){
+                sum[arr2[k]]++;
+            }else{
+                sum[arr2[k]]=1;
+            }
+        }
+        console.log(sum);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<script src="movies.js"></script>
+    <script>
+		var subject=data.subjects;
+		for(var i=0;i<subject.length;i++){
+			var move=subject[i];
+			var title=move.title;
+			var rating=move.rating.average;
+			var year=move.year;
+			var alt=move.alt;
+			var genres = move.genres;
+			var namestr='';
+			var dirnamestr='';
+			for(var j=0;j<move.casts.length;j++){
+				namestr += '/'+move.casts[j].name;
+			}
+			for( var k=0;k<move.directors.length;k++){
+				dirnamestr+='/'+move.directors[k].name;
+			}
+			console.log(i+'.《'+move.title+'》评分：'+move.rating.average+'，年份：'+move.year+'，演员名单：'+namestr+',导演名单'+dirnamestr+',地址：'+move.alt);
+		}
+		
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
